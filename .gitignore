@@ -1,55 +1,18 @@
-# Prerequisites
-*.d
+# Compiled binaries
+nano.exe
+src/nano.exe
 
-# Object files
+# Object files and dependency tracking
 *.o
-*.ko
-*.obj
-*.elf
+.deps/
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Makefiles and config generated for your specific machine
+Makefile
+src/Makefile
+lib/Makefile
+syntax/Makefile
+doc/Makefile
+config.status
+config.cache
+config.log
+config.h
