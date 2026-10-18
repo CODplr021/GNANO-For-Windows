@@ -27,8 +27,10 @@ libcharset-1.dll
 Add that folder to your Windows PATH environment variable so you can launch it from anywhere.
 
 (Warning: You might still see a brief red startup error about a missing nanorc path because the binary was originally born in an MSYS2 ecosystem. Just ignore it, or pretend it's a feature letting you know nano is alive and judging your file paths.)
+
 Wait... Might? Sorry, I meant it WILL show up. Soon I will try to fix it.
-Building from Source
+
+# Building from Source
 If you want to try compiling it yourself and reliving Julian's descent into madness:
 
 Fire up MSYS2 MinGW-w64.
