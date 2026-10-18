@@ -44,4 +44,4 @@ Run ./configure and make.
 Enjoy the only known software artifact of its kind that actually functions.
 
 # Just so you know
-If you want it to work, you will need to put nano.exe in path, then you can use it normally by typing "nano filename.txt".
+If you want it to work, you will need to put nano.exe in path, and in C:\Windows\System32 (if you want), then you can use it normally by typing "nano filename.txt".
