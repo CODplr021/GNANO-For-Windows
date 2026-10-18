@@ -5,7 +5,7 @@ Miracle of miracles, I actually built something from source that compiles, runs,
 This is a native, standalone Windows port of GNU nano 9.2, built using MSYS2 and MinGW-w64. That means you can run a proper terminal text editor directly in Windows without needing a full Linux subsystem running in the background. Type nano filename.txt, write code or edit configs, and save it like a normal human being.
 
 # Why does it exist?
-Because Julian stared at cross-compilation errors, missing dependencies (makeinfo, anyone?), broken pointer casts, and incompatible _stat64 structs until the code simply gave up and worked out of sheer exhaustion.
+Because I stared at cross-compilation errors, missing dependencies (makeinfo, anyone?), broken pointer casts, and incompatible _stat64 structs until the code simply gave up and worked out of sheer exhaustion.
 
 # How to Run It
 Since this is a portable Windows build, nano.exe needs its bodyguards to function outside of MSYS2. To use it:
